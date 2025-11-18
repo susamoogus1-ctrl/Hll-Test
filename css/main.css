@@ -9,6 +9,10 @@
     --color-on-error: white;
 }
 
+header {
+    background-image: url("Test.jpg");
+}
+
 main.dark,
 header.dark {
     color-scheme: dark;
@@ -50,8 +54,6 @@ header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
     height: 4rem;
-    background-color: var(--color-primary);
-    color: var(--color-on-primary);
 }
 @media screen and (min-width: 1366px) {
     header {
